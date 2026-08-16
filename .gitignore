@@ -1,0 +1,8 @@
+# This repository distributes GradeCore releases. The application source is
+# kept locally and is deliberately not published here, so everything is ignored
+# by default and the few release-facing files are allowed back in by name.
+
+/*
+!.gitignore
+!README.md
+!CHANGELOG.md
