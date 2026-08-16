@@ -4,6 +4,17 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.2
+
+**Your letterhead prints exactly what you type.**
+
+- The school name and governing agency are no longer forced into capitals. Type
+  "Baao Community College" and that is what prints; type it in capitals if that
+  is what your forms use.
+- The fix applies everywhere the letterhead appears — the six class reports, the
+  grade slip, the Table of Specifications, and the live preview in
+  **Settings ▸ School**.
+
 ## v1.0.0.1
 
 **Grade slips for students, and updates from inside the app.**
