@@ -4,6 +4,19 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.3
+
+**Groups now change on screen the moment you change them.**
+
+- Deleting, adding or renaming a group updates the board straight away. The
+  delete was always saving — the board simply kept showing the old groups until
+  you left the page and came back.
+- Swap two students between groups: press **⇄** on a student card and pick who
+  they trade places with. Both groups keep their size.
+- Deleting a group that still has members now asks first.
+- The student count in the class header updates as soon as you enrol somebody.
+- Attendance tallies in the meeting list update as soon as you take attendance.
+
 ## v1.0.0.2
 
 **Your letterhead prints exactly what you type.**
