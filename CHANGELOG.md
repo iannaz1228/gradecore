@@ -4,6 +4,38 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.4
+
+**Your timetable now says where each class actually meets.**
+
+- Every class on the weekly schedule is marked **Face-to-Face** or **Online** —
+  an icon on the timetable block, the room or "Online" underneath it, and a full
+  label in the list view, on class cards and in the workspace header. Classes
+  recorded before this show as Face-to-Face until you edit the slot.
+- Grade sheets can now be generated for one grading period on its own.
+  **Reports ▸ Grade Sheet** has a Combined / Midterm / Final switch: a period
+  sheet shows every component with its weight, the raw score and the total
+  midterm or final grade to submit. Print, PDF and Excel all follow the switch.
+- **Settings ▸ Help & Support**: report a bug, suggest an improvement or ask a
+  question. GradeCore composes the mail — with your version and Windows build
+  attached — and hands it to your own mail app. A copy goes to your clipboard
+  every time, so nothing is lost if no mail app answers.
+- **Buy me a coffee** — GCash, Maya, PayPal and MariBank, each with a copy
+  button. Nothing in GradeCore is behind a payment and nothing ever will be.
+- Adding a subject or opening a class with no semester set now offers to set up
+  the school year and semester there and then, instead of letting you fill in a
+  form that could not be saved.
+- Two schedules that overlap are refused, whatever their mode — you cannot be in
+  a room and online at the same hour. The clash is named, so you can see what
+  you are colliding with.
+- **Settings ▸ Security** can lock GradeCore after a stretch of inactivity —
+  2 minutes to 2 hours — once a PIN or password is set.
+- A section's name is now assembled from its programme, year and block rather
+  than typed, so the same section can never be spelled two ways.
+- Picking a section from the "+ Section" list works without typing first.
+- In Academic Management, a programme's "Full Name" is now called
+  **Description**.
+
 ## v1.0.0.3
 
 **Groups now change on screen the moment you change them.**
