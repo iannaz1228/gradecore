@@ -4,6 +4,37 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.5
+
+**Write your midterm and final in GradeCore, then print the paper and its
+answer key.**
+
+- **Reports ▸ Exam Paper ▸ New** starts a paper from a Table of Specifications.
+  Every number arrives knowing what it is for — the cognitive level, the content
+  area and the competency you placed there — shown above the question as you
+  write it, so the paper cannot drift from the blueprint it was approved
+  against. A paper can also be written free-hand, with no blueprint.
+- Multiple choice, true or false and fill in the blank, with a picture on a
+  question or on any option.
+- Paste a whole question from your Word file — the stem and its options together
+  — and GradeCore offers to split it into the fields. An asterisk on an option
+  marks it as the correct answer. Pasting a list into one option fills the
+  options from there down.
+- The keyboard does everything: **Enter** runs down the options and on to the
+  next question, **Ctrl** and a number ticks the answer, **Ctrl+D** duplicates
+  an item, **Backspace** on an empty option removes it. Every keystroke saves
+  itself, and the header says so.
+- The printed paper builds its own parts from the types you chose —
+  **I. MULTIPLE CHOICE**, **II. TRUE OR FALSE**, **III. FILL IN THE BLANK** —
+  each with directions of its own and a blank before every number for the
+  student to write on. Rename any heading or rewrite its directions on the
+  question that opens the part; leave them and the standard wording prints.
+  Item numbers always stay where the blueprint placed them.
+- The answer key is a separate PDF, laid out in the same parts, with a coverage
+  summary of what the paper actually tested against what the blueprint planned.
+- The paper and the key always print A4 portrait, whatever the printer was last
+  set to.
+
 ## v1.0.0.4
 
 **Your timetable now says where each class actually meets.**
