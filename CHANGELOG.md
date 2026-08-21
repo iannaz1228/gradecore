@@ -4,6 +4,31 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.6
+
+**Grades now answer to the college's own E-Class Record.**
+
+- Every transmutation and every point grade was checked against the E-Class
+  Record workbook — all 1070 of its cells and all 26 rows of its point table.
+  The formula was already right: a grade is **(score ÷ total) × 50 + 50**, so
+  35 out of 50 is 85.
+- A point grade now reads the percentage as it is shown. A grade printed as
+  92.00 used to be given the point for 91.
+- **75 is a hard floor**, as the record has it: there is no point grade beneath
+  it, so nothing can be marked passing with a 5.00 beside it. A class may still
+  set a stricter mark of its own.
+- The Gradebook reads the pass mark and the transmutation base from the class
+  instead of assuming 75 and 50 — the passing tally, the class average and the
+  row colours all follow the setup.
+- The Gradebook sheet now fills the window instead of stopping short and leaving
+  a slab of empty card beside it, and the class-average row sits under the
+  columns it belongs to.
+- Encoding a score reaches the **Assessments** list straight away. It used to
+  keep showing "0/84" and no average until you left the page and came back.
+- **New paper** inside the exam papers folder opens the form again.
+- The grade distribution chart no longer stacks one label per student down its
+  side.
+
 ## v1.0.0.5
 
 **Write your midterm and final in GradeCore, then print the paper and its
