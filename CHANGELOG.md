@@ -4,6 +4,18 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.9
+
+**The Attendance Sheet report has its icon back.**
+
+- The **Attendance Sheet** card in Reports was still drawing a plain symbol
+  while every card around it had its own. It now shows the attendance icon —
+  the clipboard with ticks.
+- Underneath, an icon name that did not match anything used to fall back to a
+  plain symbol without saying so, which is how one card went unnoticed.
+  GradeCore now refuses to build against a name that does not exist, so it
+  cannot happen quietly again.
+
 ## v1.0.0.8
 
 **You can see at a glance which classes are online.**
