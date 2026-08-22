@@ -4,6 +4,20 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.13
+
+**Closing is instant, and the week starts on Sunday.**
+
+- GradeCore took about ten seconds to disappear after you confirmed you wanted
+  it closed. It was ending its own message loop without letting the window shut
+  down properly, so the app sat there with nothing left to show. It now closes
+  the ordinary way and is gone in under half a second.
+- The weekly timetable was drawn Monday to Saturday, which left **Sunday** off
+  the grid — a Sunday class could be saved and then never seen again. The week
+  now reads Sunday through Saturday everywhere it is shown.
+- Removing a meeting time from the schedule asks first. It sits next to Edit
+  and took the time off the timetable the instant it was clicked.
+
 ## v1.0.0.12
 
 **GradeCore has a way out of its own.**
