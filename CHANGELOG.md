@@ -4,6 +4,22 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.11
+
+**A score cannot be higher than the paper is worth.**
+
+- Type 455 into a quiz marked out of 50 and the cell turns red, the percentage
+  reads in red beside it, and **Save** will not run until it is corrected. A
+  mark above the perfect score used to be quietly halved into the record, where
+  it inflated the class standing all the way to the final grade.
+- The record itself now holds every score between zero and the perfect score,
+  whichever way it arrives.
+- **Add period**, **Add category** and **Save** in the grading panel look like
+  buttons now instead of plain words.
+- Bigger icons in the sidebar, on the class tabs and across the dashboard,
+  where the tinted plates behind them are gone so the drawings themselves can
+  be seen.
+
 ## v1.0.0.10
 
 **Meeting topics stay put.**
