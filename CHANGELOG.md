@@ -4,6 +4,20 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.8
+
+**You can see at a glance which classes are online.**
+
+- The weekly timetable marks every block with the icon for how that class meets
+  — a classroom door, a camera, or both for a blended class — and the mark
+  grows with the block, so a three-hour class carries a big one and a half-hour
+  class still fits.
+- The same mark, at a readable size, on class cards, in the workspace header, on
+  the dashboard's next class and in the **Online** / **Face-to-Face** pills.
+- **Assessments**, **Gradebook** and **Groupings** show their icon on every
+  class card. All three are built from one grid, which is why they were the
+  last to change.
+
 ## v1.0.0.7
 
 **GradeCore has its own icons now.**
