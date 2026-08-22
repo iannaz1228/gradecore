@@ -4,6 +4,22 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.7
+
+**GradeCore has its own icons now.**
+
+- Forty-eight icons drawn for GradeCore replace the stock symbols across the
+  app — the sidebar, the tabs inside a class, every report card, the settings
+  pages, the dashboard and every empty page.
+- A class now shows how it meets with an icon of its own: a classroom door for
+  face-to-face, a camera for online, and both together for blended. They are
+  clearest in the **Class Schedule** dialog, where the three sit side by side.
+- Exports carry their own marks — a PDF file, an Excel sheet, a printer — and
+  the exam paper's answer key has one too.
+- The smallest places keep the plain symbols on purpose. A drawing at twelve
+  pixels is a smudge, so timetable corners, chevrons and tick boxes are left as
+  they were.
+
 ## v1.0.0.6
 
 **Grades now answer to the college's own E-Class Record.**
