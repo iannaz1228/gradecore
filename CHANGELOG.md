@@ -4,6 +4,20 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.10
+
+**Meeting topics stay put.**
+
+- A meeting you had given a topic went back to reading **Meeting 3** the moment
+  you recorded its attendance. The topic was being saved and then written over
+  a breath later by the switch that counts the meeting towards grades. It is
+  not any more.
+- The same erasing hit a meeting the moment it was created with a topic, and it
+  took the meeting length with it.
+- Topics that were already lost cannot be recovered — they were overwritten
+  rather than hidden — so they will need typing once more. They will stay this
+  time.
+
 ## v1.0.0.9
 
 **The Attendance Sheet report has its icon back.**
