@@ -4,6 +4,18 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.12
+
+**GradeCore has a way out of its own.**
+
+- **Exit GradeCore** sits at the foot of the sidebar and in the profile menu,
+  with its own icon.
+- Closing now asks first — and the window's own **X** asks the same question,
+  so a stray click on the corner of the screen no longer shuts the app down
+  mid-encoding.
+- **Your profile** and the lock entry in the profile menu carry drawn icons
+  like the rest of the app.
+
 ## v1.0.0.11
 
 **A score cannot be higher than the paper is worth.**
