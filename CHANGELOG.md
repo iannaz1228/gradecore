@@ -4,6 +4,16 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.15
+
+**The New Programme form shows a programme.**
+
+- It suggested "CC 101" and "Introduction to Computing" — a subject, and the
+  opposite of what the same dialog says one line above. It now suggests
+  **BSIS** and **Bachelor of Science in Information Systems**.
+- A subject's description no longer calls itself a course description; a course
+  is a degree programme everywhere else in GradeCore.
+
 ## v1.0.0.14
 
 **Finding one student in a class of eighty-seven.**
