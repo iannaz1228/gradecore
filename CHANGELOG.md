@@ -4,6 +4,30 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.14
+
+**Finding one student in a class of eighty-seven.**
+
+- Search the score sheet by name or student number, and narrow it to the
+  students still missing a score, the highest, the lowest, or everyone below
+  the passing mark. The **Highest** and **Lowest** tallies are the quickest way
+  in — tap the number to see exactly who is on it, tap it again to come back.
+- The row you are typing in now stands out from the rest and follows you down
+  as you press Enter, so glancing at the paper and back no longer costs you
+  your place.
+- Narrowing the list never narrows what is saved: **Save** still writes every
+  student, filtered or not, and the row you are editing stays put even when it
+  no longer matches the filter.
+- **Needs Attention** on a class Overview lists everyone it has flagged, worst
+  first, and each name opens that student. The card used to show six and simply
+  count the rest.
+- The Overview reads tighter, with **Scores To Encode** moved across to fill the
+  empty half, and the quick actions have lost the boxes around their icons.
+- **Add period**, **Add category** and **Save** in the grading panel answer the
+  pointer now instead of sitting still.
+- Fixed: opening a score sheet before its class list had loaded left a sheet of
+  blank rows that could not be typed into.
+
 ## v1.0.0.13
 
 **Closing is instant, and the week starts on Sunday.**
