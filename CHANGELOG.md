@@ -4,6 +4,18 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.16
+
+**Searching during attendance no longer marks anyone.**
+
+- Looking for "Alvin" while taking attendance used to mark somebody **Absent**
+  on the A and **Late** on the L, walking down the roster as you typed. The P,
+  L, A and E shortcuts now stand aside while you are typing in the search box.
+- Press **Enter** in that search box to hand the keyboard back to the list, so
+  marking carries on without reaching for the mouse.
+- Worth a look: if you searched during an earlier meeting, a student may be
+  sitting on a status you never chose.
+
 ## v1.0.0.15
 
 **The New Programme form shows a programme.**
