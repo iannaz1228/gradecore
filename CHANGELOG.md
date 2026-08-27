@@ -4,6 +4,17 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.18
+
+**Report a bug without leaving GradeCore.**
+
+- **Help & Support** can now send your message straight out, instead of handing
+  it to a mail app and hoping one answers. It goes from your own account — the
+  one set up under **Settings ▸ Email** — so a reply comes back to you rather
+  than disappearing into a mailbox you cannot see.
+- Opening your mail app and copying to the clipboard both still work, so
+  nothing is lost if you have not set up email.
+
 ## v1.0.0.17
 
 **Grade slips can be emailed, and the class can see who is top of it.**
