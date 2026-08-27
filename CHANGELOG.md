@@ -4,6 +4,31 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.17
+
+**Grade slips can be emailed, and the class can see who is top of it.**
+
+- Email a student their grade slip from the slip itself, or send a whole class
+  from **Reports**. Each student receives only their own, attached as a PDF,
+  and nothing goes out until you say so.
+- Set it up under **Settings ▸ Email** — Gmail, Brevo, or your own mail server.
+  Each keeps its own sign-in, so setting one up never disturbs another, and
+  **Test connection** signs in without sending anything, so a wrong App
+  Password is found there rather than halfway through a class.
+- A student with no address, an unusable one, or one shared with somebody else
+  is never quietly skipped: the Students page counts them, and a bulk send
+  names every one before it starts.
+- Every attempt is kept, successes and failures alike, with the address it
+  actually went to.
+- New **Top Performers** tab inside a class: everyone whose grade lands between
+  **1.00 and 1.90**, however many that is, with the three highest marks on a
+  podium and the list downloadable as a PDF on your letterhead. Early in a
+  term, when only a handful of scores are in, it says so and holds the medals
+  back rather than crowning whoever was marked first.
+- **Backups now carry your letterhead.** The school seal, the department seal
+  and your photo travel with the file and are put back pointing at the right
+  place, even on a different computer. Older backups still restore.
+
 ## v1.0.0.16
 
 **Searching during attendance no longer marks anyone.**
