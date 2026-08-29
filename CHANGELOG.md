@@ -4,6 +4,19 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.19
+
+**A Table of Specifications can use all six Bloom's levels.**
+
+- **Evaluating** and **Creating** are available now, and each paper chooses
+  which levels it is built on — the **levels** button beside Presets. Papers
+  already written keep the four they were written with, so nothing finalized
+  changes.
+- The matrix grows with the choice: the wizard, the totals, and the printed
+  page, where the columns narrow so six still fit.
+- The per-topic grid has column headings at last. Four identical number boxes
+  with nothing above them gave no way of telling which one was Remembering.
+
 ## v1.0.0.18
 
 **Report a bug without leaving GradeCore.**
