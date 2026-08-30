@@ -4,6 +4,22 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.20
+
+**Scores save themselves.**
+
+- Encoding a class no longer waits for anybody to press **Save**. Scores go to
+  the record about a second after you stop typing, and a line beside the
+  tallies says whether they are on their way, saved, or being held back — so
+  you never have to wonder.
+- Closing the sheet saves whatever was typed in the last second first, which is
+  exactly the work a shut window used to take.
+- Stepping to the next assessment with the arrows saves the one you are
+  leaving. It used to throw it away as completely as closing the window, only
+  more quietly.
+- A score higher than the paper is worth still will not save, and the status
+  line says so rather than pretending otherwise.
+
 ## v1.0.0.19
 
 **A Table of Specifications can use all six Bloom's levels.**
