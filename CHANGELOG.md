@@ -4,6 +4,24 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.21
+
+**Ties share a place, and everything prints in Times New Roman.**
+
+- **Top Performers** groups the class into places — Top 1, Top 2, Top 3 — and
+  everyone on the same grade sits together in one of them. Three students tied
+  at the top are all Top 1, and the next student is Top 2 rather than Top 4.
+- A **search box** beside the period picker finds a student by name or number
+  without moving anybody: whoever you search for keeps the place they actually
+  hold.
+- A grouping can be saved as a **PDF** from the board — two groups to a row
+  with the members numbered, ready to hand out or pin up.
+- Every printed document is now set in **Times New Roman**, with the "Republic
+  of the Philippines" line in **Algerian**, so a class record looks like the
+  form it replaces. The letterhead preview in Settings shows the same faces.
+- The **Table of Specifications** sits centred on the page, and its seals sit
+  either side of the school name instead of out at the margins.
+
 ## v1.0.0.20
 
 **Scores save themselves.**
