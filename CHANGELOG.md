@@ -4,6 +4,25 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.22
+
+**GradeCore tells you when there is an update.**
+
+- A new release now turns up in your **notifications** and puts a **dot on
+  Settings**, instead of waiting for you to think to go and look. Nothing
+  downloads or installs until you say so, and each release is only mentioned
+  once.
+- **Settings ▸ About** has a switch for it. This is the only thing GradeCore
+  sends on its own — turned off, it stays completely offline.
+- The **notification badge** counts everything in the feed. It used to stop at
+  12 however busy the day had been, and the panel showed only that many; it now
+  holds the full history.
+- Entries recorded in the same second no longer come out in a jumbled order —
+  enrolling a section, which logs two at once, could show the older one first.
+- The **Grade Sheet** on the Reports page has the Combined / Midterm / Final
+  switch it already had inside a class. The same card was offering the choice
+  in one place and not the other.
+
 ## v1.0.0.21
 
 **Ties share a place, and everything prints in Times New Roman.**
