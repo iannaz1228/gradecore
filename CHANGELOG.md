@@ -4,6 +4,19 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.24
+
+**The window opens where you can reach it.**
+
+- On a smaller laptop GradeCore opened **larger than the screen**, which put the
+  title bar above the top edge — so the minimise, maximise and close buttons
+  could not be reached, the edges could not be dragged, and there was no title
+  bar left to double-click. The window is now kept inside the screen it opens
+  on, whatever size that screen is.
+- The **title bar follows GradeCore's own theme** rather than Windows'. On a
+  laptop set to the light Windows theme it used to come up white, with white
+  buttons, above a very dark app.
+
 ## v1.0.0.23
 
 **Scores can come straight from the spreadsheet you marked in.**
