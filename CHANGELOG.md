@@ -4,6 +4,29 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.23
+
+**Scores can come straight from the spreadsheet you marked in.**
+
+- **Import scores** on any assessment reads a marked `.xlsx` or `.csv` and
+  fills the cells. You see exactly what it will do first — who matched, who
+  needs a look, and who the file never mentioned — and nothing is saved until
+  you are happy with it.
+- It matches on the **student number** where the file has one, and on the name
+  where it does not. Either order, any capitalisation, accents and middle
+  initials included. Anything it is not sure about is handed back rather than
+  guessed — a grade is not worth a lucky guess.
+- Two rows for the same student now stop and ask instead of the later one
+  quietly winning, and a workbook with a tab per quiz says which sheet it read.
+- **Download the class as a score sheet** if the quiz is not marked yet. It
+  comes back with the student numbers, so every row matches exactly.
+- A score outside 0 to the perfect score can no longer be saved, whether it was
+  typed or imported.
+- A long **category** name no longer runs across the next column in the
+  assessments list.
+- **Settings ▸ About** opens on the current version, with earlier releases a
+  click away instead of stacked out in full.
+
 ## v1.0.0.22
 
 **GradeCore tells you when there is an update.**
