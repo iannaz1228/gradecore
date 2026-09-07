@@ -4,6 +4,28 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.25
+
+**Everything fits on a 13-inch laptop.**
+
+- Buttons along the top of a page no longer **run off the right-hand edge** on
+  a smaller screen. Import Excel and Add Student on the Students page were the
+  first to go; they now move onto a second line instead of being cut off where
+  nothing could reach them.
+- GradeCore can now be **resized to fit your screen**. It used to refuse to get
+  smaller than a set size, and on a laptop running at 125% or 150% text scaling
+  that size was taller than the screen itself — so the bottom of the window sat
+  below the display and dragging the edge could not bring it back.
+- Inside a class, the **row of tabs** scrolls to whichever one you are on,
+  shades the edge to show there are more, and follows the mouse wheel. Opening
+  Notes on a narrow window used to look like nothing was selected at all.
+- The class title, its schedule and its student count now **wrap onto the next
+  line** rather than pushing each other off the edge.
+- The **grade slip composer** fits the screen it is opened on. At its old fixed
+  size the buttons along the bottom were off the display on a smaller laptop.
+- A long **instructor name** no longer stretches the bar across the top of the
+  window.
+
 ## v1.0.0.24
 
 **The window opens where you can reach it.**
