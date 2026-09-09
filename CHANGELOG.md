@@ -4,6 +4,24 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.26
+
+**A second semester starts fresh.**
+
+- Editing a class no longer lets its **Subject, Section or Semester** be
+  changed. Doing that used to move the class's whole history along with it
+  instead of starting a clean workspace — a class edited into a new semester
+  carried every assessment, score and attendance record it already had, which
+  looked like the new semester came pre-filled with the old one's grades.
+  Teaching the same subject to the same section next semester now always
+  means opening a new class from Class Records; the identity of an existing
+  one is fixed once it is made.
+- An assessment that already had scores encoded could open with **every cell
+  blank**, needing to be closed and reopened before the scores showed. The
+  roster and the scores load separately, and whichever arrived first used to
+  lock the sheet before the other had a chance to fill it in. Both are now
+  waited for before anything is shown.
+
 ## v1.0.0.25
 
 **Everything fits on a 13-inch laptop.**
