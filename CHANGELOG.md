@@ -4,6 +4,17 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.27
+
+**The Enrol button stays where you can reach it.**
+
+- Enrol Students kept its candidate list at a fixed height, whatever the
+  window's own height was. On a shorter screen that pushed **Select all**,
+  **Whole section** and **Enrol** themselves past the bottom of the dialog and
+  off the screen — reachable by no amount of scrolling, because the dialog
+  itself had overflowed, not the list inside it. The list now gives up
+  whatever room the button bar needs first.
+
 ## v1.0.0.26
 
 **A second semester starts fresh.**
