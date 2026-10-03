@@ -4,6 +4,18 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.28
+
+**Groupings leaves room for the groups.**
+
+- The **unassigned students tray** no longer grows downward with however many
+  names are waiting. It scrolls sideways instead, one row tall whether there
+  are three students left to place or thirty — so the groups underneath it,
+  the actual place a student gets dragged to, always have the room they need.
+- Attendance gets a **Mark all absent** button next to Mark all present, for a
+  day the whole class was out, or to undo a mark-all-present that was not
+  meant for everyone — both now a single click instead of every row by hand.
+
 ## v1.0.0.27
 
 **The Enrol button stays where you can reach it.**
