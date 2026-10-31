@@ -4,6 +4,20 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.29
+
+**Dropped students stay off the score sheet.**
+
+- A student **marked as dropped** in a class no longer appears when scores are
+  encoded — not in the list, the downloadable score sheet, an import or
+  **Fill blanks**. The scores they already had are kept, and marking them
+  active again brings them back.
+- The **Encoded** count on the assessments list, the class overview, the
+  Assessments page and the class report now counts only the students still in
+  the class — so an assessment reads complete once everyone remaining has a
+  score, instead of sitting one short for the rest of the term. Average,
+  highest and lowest follow the same students.
+
 ## v1.0.0.28
 
 **Groupings leaves room for the groups.**
