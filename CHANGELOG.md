@@ -4,6 +4,54 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.30
+
+**Guided help, safer changes, and backups that look after themselves.**
+
+- **Guided help everywhere.** Every page and class tab has a **?** beside its
+  heading: what it does, what it needs first, how its main jobs are done, and
+  a walkthrough that points at the real buttons. A first-run **guided setup**
+  takes a new teacher from an empty app to a first grade sheet, waiting while
+  each step is actually saved — nothing is filled in for you. The semester
+  setup checklist ticks itself from what is saved, and everything can be
+  replayed from **Settings ▸ Help & Tutorials**.
+- **Click sounds.** A soft click on buttons, tabs and menus, and a chime when
+  a walkthrough step is done — three click styles, a volume slider, or off,
+  in **Settings ▸ Appearance ▸ Sounds**. The sounds are free CC0 recordings
+  by Kenney.
+- **Backup & Recovery.** Weekly backups are made automatically while
+  GradeCore is open — checked when it starts and every hour — into a folder
+  you choose, verified before they count, keeping the newest 8 by default.
+  Named **checkpoints** let you roll back to a moment you chose; every restore
+  shows what it will replace, saves a safety checkpoint first, and either
+  completes in full or changes nothing. Backup files now carry a format
+  version and a fingerprint that is checked before restoring, and the PIN
+  that locks GradeCore is no longer included in them.
+- **Stronger confirmations.** Deleting, archiving and restoring now name the
+  record, count what goes with it — "and 412 scores" — and say whether it can
+  be undone. Permanent deletions ask you to type DELETE and offer a
+  checkpoint first. Every critical action is written to an **audit history**
+  kept apart from your records.
+- **Search in Grades.** Find a student by name or student number, without
+  changing any grade or average. The student column now stays in place
+  while the scores scroll sideways.
+- **A simpler grade sheet.** The Midterm, Final term and combined grade
+  sheets now show only Student Name, the numerical grade and the remark —
+  the same Point Grades the Grades tab computes. A missing grade reads
+  NO GRADE, never a zero, and the heading says which sheet it is.
+- **Correct one score from a student's record.** Open a student from Grades
+  or Students and select any score to change it. Finalized periods stay
+  locked, and a score changed elsewhere in the meantime is never silently
+  overwritten. The change is recorded with its old and new value.
+- **Schedule conflicts warn instead of refusing.** An overlapping meeting
+  time shows the class, section, day and time it clashes with; **Cancel and
+  Edit**, or **Proceed Anyway** on purpose — which is recorded.
+- **Fits smaller tablets.** Pages, tables and dialogs were checked at 768,
+  800, 1024 and 1280 pixels wide, including short landscape screens. Wide
+  tables scroll sideways in their own frame, and pages scroll instead of
+  crushing their tables.
+- A new **Top Performers** icon.
+
 ## v1.0.0.29
 
 **Dropped students stay off the score sheet.**
