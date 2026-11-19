@@ -4,6 +4,24 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.32
+
+**GradeCore fits your window, and entering scores gets the whole screen.**
+
+- **Fits any window.** Text, icons, buttons, tables and dialogs are now drawn
+  to fit the window — smaller on a laptop or Windows tablet, or when you make
+  the window smaller — and adjust live as you resize it. Larger windows stay
+  at 100%. Choose **Auto (fit this window)**, **Compact**, **Standard (100%)**
+  or **Large** in **Settings ▸ Appearance ▸ Interface size**, or press
+  **Ctrl + minus** / **Ctrl + plus**, and **Ctrl + 0** for Auto. This replaces
+  the fixed percentages from v1.0.0.31, which now read as Auto.
+- **Full view for entering scores.** On a shorter window, opening an
+  assessment's score sheet hides the menus, top bar and class header so the
+  students fill the screen — about four times as many rows on a laptop. The
+  class and section show beside the assessment's title. Use the full-view
+  button beside **Edit**, or press **Esc**, to bring the menus back; your
+  choice is remembered.
+
 ## v1.0.0.31
 
 **A fresh start each semester, finished semesters kept safe, and a size for every screen.**
