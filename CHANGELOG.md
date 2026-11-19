@@ -4,6 +4,16 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.33
+
+**A cleaner sidebar hover.**
+
+- **Fixed: hover trails in the sidebar.** Moving the mouse down the sidebar
+  could leave grey highlights behind on items the pointer had already left —
+  most often when the sidebar was scrolled, on a busy computer. Highlights in
+  the sidebar, on **Exit GradeCore** and in the Settings section list now
+  appear and disappear instantly and leave nothing behind.
+
 ## v1.0.0.32
 
 **GradeCore fits your window, and entering scores gets the whole screen.**
