@@ -4,6 +4,41 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.31
+
+**A fresh start each semester, finished semesters kept safe, and a size for every screen.**
+
+- **Close a finished semester.** Once its grades are final, choose **Close
+  semester** from the semester's menu in **Academics ▸ School years**. Its
+  classes stay fully viewable — rosters, attendance, scores, grades, printouts
+  and exports — but nothing in them can be added, changed or deleted, not even
+  by accident, until you **Reopen** it. Class pages show a banner and the
+  editing buttons are greyed out.
+- **Each semester starts fresh.** The Dashboard now counts only the active
+  semester's students and subjects, Notes shows that semester's class notes
+  (and your general ones), and **Show all** on Class Records adds only that
+  semester's archived classes. Last semester's records are all still there
+  when you pick it in the sidebar.
+- **Copy a grading setup.** A new class can start from another class's
+  periods, categories, weights and scale — last semester's, for instance — and
+  **Grades ▸ Grading Setup ▸ Copy from…** does the same for a class that
+  already exists. Work already recorded stays where it is; if copying would
+  delete anything, nothing is copied and you are told what is in the way.
+- **Fixed: grading setup at 200%.** On some computers, adding a class could
+  create its periods and categories twice, so the weights totalled 200%.
+  That no longer happens, and classes it already happened to are repaired
+  automatically the first time this version opens — assessments and
+  attendance filed under the extra copies are moved, not lost.
+- **Fixed: invisible title-bar buttons in light mode.** Minimize, maximize and
+  close are now clearly visible in both light and dark mode.
+- **Interface size.** **Settings ▸ Appearance ▸ Interface size** makes text,
+  icons, tables and dialogs smaller or larger together. **Auto** fits
+  GradeCore to small screens such as Windows tablets; **Ctrl + minus**,
+  **Ctrl + plus** and **Ctrl + 0** work anywhere. The window can now always be
+  made to fit a small screen.
+- **Loading-screen sound.** The intro now plays with its sound, at the Sounds
+  volume. Turn it off in **Settings ▸ Appearance ▸ Sounds**.
+
 ## v1.0.0.30
 
 **Guided help, safer changes, and backups that look after themselves.**
