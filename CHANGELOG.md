@@ -4,6 +4,35 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.34
+
+**Every semester starts fresh, and restoring is clearer.**
+
+- **Each semester has its own records.** Programmes, sections, subjects and
+  students now belong to a semester. A new semester starts empty — add or
+  import its sections, subjects and students — and deleting anything in one
+  semester never touches another. Before, a second semester opened onto the
+  first one's setup, and deleting a subject there deleted it, with its
+  classes and scores, from the first semester too.
+- **Your existing records are split automatically** the first time this
+  version opens. Anything both semesters used — a section, a subject, a
+  student — becomes a separate copy in each, with every class, enrolment,
+  score and attendance mark kept with its own semester. Nothing is lost, and
+  a copy of the database is saved beside it first. Backups and checkpoints
+  made with an older version are split the same way when restored.
+- **Clearer restores.** Safety checkpoints are called **Before a restore**,
+  with what was being restored written underneath, and every checkpoint says
+  how it differs from your records now — "Restoring brings 3 more classes,
+  1696 more scores than now". A checkpoint leaves the list once it has been
+  restored, and every page shows the restored records straight away, with
+  no need to switch semesters.
+- A closed semester now keeps its own students, sections and subjects
+  unchanged too.
+- Fixed: an error after deleting a subject from Academics.
+
+Note: once this version has opened your records, older versions of
+GradeCore cannot read them — keep using this version or newer.
+
 ## v1.0.0.33
 
 **A cleaner sidebar hover.**
