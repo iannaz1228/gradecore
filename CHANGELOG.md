@@ -4,6 +4,24 @@ Versions are `major.minor.patch.build`. The same notes appear inside the app
 under **Settings ▸ About**, and in the card GradeCore shows the first time it
 runs after an update.
 
+## v1.0.0.35
+
+**Grade emails send in the background.**
+
+- **Keep working while grade slips are emailed.** Pressing Send now closes
+  the window straight away and the slips go out in the background — create
+  assessments, encode scores, or send another section's slips while they
+  do. Batches queue up and go out one after another.
+- **Progress at the bottom right.** A small pill shows how far the sending
+  has got on every page. Open it to see each batch, who could not be
+  reached and why, and to **Stop after this one**, **Retry** the ones that
+  failed, or **Dismiss** a finished batch. A message says how each batch
+  went when it finishes.
+- A single student's slip, sent from their record, goes out the same way.
+- Sending the same class twice is prevented while its slips are still
+  going, and closing GradeCore mid-send asks first, saying how many are
+  still to go.
+
 ## v1.0.0.34
 
 **Every semester starts fresh, and restoring is clearer.**
